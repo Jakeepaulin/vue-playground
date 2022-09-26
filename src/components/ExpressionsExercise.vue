@@ -4,19 +4,13 @@
       <div class="col-12">
         <h1>Exercises</h1>
         <div class="border p-1">
-          <p>
-            Write a math equation Vue can evaluate, inside of the curly braces
-            below:
-          </p>
+          <p>Write a math equation Vue can evaluate, inside of the curly braces below:</p>
 
-          <p>{{}}</p>
+          <p>{{ (6 / 2) * (2 + 1) }}</p>
         </div>
         <div class="border p-1">
-          <p>
-            Use interpolation to get the customary Hello, World! to display on
-            the screen. Don't forget your quotes
-          </p>
-          <p>{{}}</p>
+          <p>Use interpolation to get the customary Hello, World! to display on the screen. Don't forget your quotes</p>
+          <p>{{ "Hello, World!" }}</p>
         </div>
       </div>
     </div>
